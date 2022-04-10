@@ -1,7 +1,7 @@
 import axios from 'axios';
 import authActions from './authActions';
 axios.defaults.baseURL = 'https://connections-api.herokuapp.com';
-
+//https://connections-api.herokuapp.com/docs/
 const token = {
   set(token) {
     axios.defaults.headers.common.Authorization = `Bearer ${token}`;
